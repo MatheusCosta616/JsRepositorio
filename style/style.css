@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-column {
+    flex: 1;
+    margin-right: 20px;
+}   
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#btnAddTarefa {
+    margin-top: 10px;
+}
+
+table {
+    border: 1px solid black; /* Corrigido para 'black' */
+    border-collapse: collapse; /* Isso ajuda a unir as bordas das células */
+    width: 100%; /* Para que a tabela ocupe toda a largura do contêiner */
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto nas células */
+}

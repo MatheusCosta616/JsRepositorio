@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        
+    </style>
+    <script src="./js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+                <h1>Cadastro de Tarefas</h1>
+                <div>
+                    <label for="idTitulo" class="form-label">Título</label>
+                    <input type="text" name="titulo" id="idTitulo">
+
+                    <label for="idDescricao" class="form-label">Descrição</label>
+                    <input type="text" name="descricao" id="idDescricao">
+
+                    <label for="idAutor" class="form-label">Autor</label>
+                    <input type="text" name="autor" id="idAutor">
+
+                    <label for="idDepartamento" class="form-label">Departamento</label>
+                    <input type="text" name="departamento" id="idDepartamento">
+                    
+                    <label for="idImportancia" class="form-label">importância</label>
+                    <select name="importancia" id="idImportancia">
+                        <option value="baixa">Baixa</option>
+                        <option value="media">Média</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </div>
+                    <div>
+                        <button type="submit" id="btnAddTarefa">Adicionar</button>
+                    </div>
+         </fieldset>
+    </form>
+
+    <div id="tablesContainer">
+    
+    </div>
+</body>
+</html>
